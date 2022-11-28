@@ -1,0 +1,17 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "A landing page using tailwind css",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./style.css -o ./css/main.css",
+    "start": "tailwindcss -i ./style.css -o ./css/main.css --watch"
+  },
+  "author": "Asma Abed",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.19",
+    "tailwindcss": "^3.2.4"
+  }
+}
